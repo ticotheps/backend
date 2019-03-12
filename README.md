@@ -1,8 +1,10 @@
-Back-End-Architect
+#Back-End-Architect
 
 ## Andrew Benedict
 
 ### Live Backend URL: https://dbase.wtf
+
+229,661 US Gun Violence Incidents between Jan 1, 2013 and Mar 31, 2018
 
 ### **Register a user**
 
@@ -136,17 +138,12 @@ _http method_: **[GET]**
     "n_killed": 1,
     "n_injured": 3,
     "incident_url": "http://www.gunviolencearchive.org/incident/478855",
-    "source_url": "http://chronicle.northcoastnow.com/2013/02/14/2-men-indicted-in-new-years-day-lorain-murder/",
-    "incident_url_fields_missing": "False",
-    "congressional_district": 9,
     "gun_stolen": "0::Unknown||1::Unknown",
     "gun_type": "0::Unknown||1::Unknown",
     "incident_characteristics": "Shot - Wounded/Injured||Shot - Dead (murder, accidental, suicide)||Shots Fired - No Injuries||Bar/club incident - in or around establishment",
     "latitude": 41.4455,
-    "location_description": "Cotton Club",
     "longitude": -82.1377,
-    "n_guns_involved": "2",
-    "notes": "",
+    "n_guns_involved": "2.0",
     "participant_age": "0::25||1::31||2::33||3::34||4::33",
     "participant_age_group": "0::Adult 18+||1::Adult 18+||2::Adult 18+||3::Adult 18+||4::Adult 18+",
     "participant_gender": "0::Male||1::Male||2::Male||3::Male||4::Male",
@@ -154,8 +151,11 @@ _http method_: **[GET]**
     "participant_relationship": "",
     "participant_status": "0::Injured, Unharmed, Arrested||1::Unharmed, Arrested||2::Killed||3::Injured||4::Injured",
     "participant_type": "0::Subject-Suspect||1::Subject-Suspect||2::Victim||3::Victim||4::Victim",
-    "sources": "http://www.morningjournal.com/general-news/20130222/lorain-man-pleads-innocent-to-new-years-murder||http://chronicle.northcoastnow.com/2013/02/14/2-men-indicted-in-new-years-day-lorain-murder/",
-    "state_house_district": "56",
-    "state_senate_district": "13"
+    "participant_info": "{'0': {'age': '25', 'age_group': 'Adult 18+', 'gender': 'Male', 'name': 'Damien Bell', 'status': 'Injured, Unharmed, Arrested', 'type': 'Subject-Suspect'}, '1': {'age': '31', 'age_group': 'Adult 18+', 'gender': 'Male', 'name': 'Desmen Noble', 'status': 'Unharmed, Arrested', 'type': 'Subject-Suspect'}, '2': {'age': '33', 'age_group': 'Adult 18+', 'gender': 'Male', 'name': 'Herman Seagers', 'status': 'Killed', 'type': 'Victim'}, '3': {'age': '34', 'age_group': 'Adult 18+', 'gender': 'Male', 'name': 'Ladd Tate Sr', 'status': 'Injured', 'type': 'Victim'}, '4': {'age': '33', 'age_group': 'Adult 18+', 'gender': 'Male', 'name': 'Tallis Moore', 'status': 'Injured', 'type': 'Victim'}}",
+    "year": 2013,
+    "month": 1,
+    "day_of_month": 1,
+    "day_of_week": 1,
+    "incident_type": "Suicide"
 }
 ```
