@@ -1,3 +1,4 @@
+
 ## Gun Violence Data Preparation
 
 1. **gun_violence_data_preparation.ipynb**
@@ -24,3 +25,7 @@ _Note_
 LOCATIONIQ_API_KEY is needed to fetch missing latitude and longitude information (if any). 
 
 LOCATIONIQ API has a limit of 10000 requests per day.
+=======
+Files from the DS side, visualizations, and zip files containing html articles and analysis with .png images
+for static needs, with html images for interactive national level analysis
+
