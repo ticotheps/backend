@@ -12,6 +12,15 @@ module.exports = {
       .first();
   },
 
+  getAllIncidentLocations: function() {
+    return db("data").select([
+      "n_killed",
+      "n_injured",
+      "latitude",
+      "longitude"
+    ]);
+  },
+
   getIncidentByState: function(state) {
     return db("data")
       .select([

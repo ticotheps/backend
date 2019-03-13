@@ -17,6 +17,19 @@ router.get("/:id", (req, res) => {
     });
 });
 
+router.get("/locs", (req, res) => {
+  helper
+    .getAllIncidentLocations()
+    .then(incidents => {
+      res.status(200).json(incidents);
+    })
+    .catch(err => {
+      res
+        .status(500)
+        .json({ errorMessage: `'error retrieving incidents' ${err}` });
+    });
+});
+
 router.get("/search", (req, res) => {
   const { search } = req.query;
   helper
