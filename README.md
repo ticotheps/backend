@@ -159,3 +159,44 @@ _http method_: **[GET]**
     "incident_type": "Suicide"
 }
 ```
+
+### **Get a Subset of Information for a State**
+
+_method url_: `/api/gundata/[STATE]`
+
+_http method_: **[GET]**
+
+#### Response
+
+##### 200 (ok)
+
+###### Example response
+
+```
+{
+    [
+    {
+        "incident_id": 92351,
+        "date": "2014-01-02",
+        "n_killed": 0,
+        "n_injured": 0,
+        "latitude": 45.5335,
+        "longitude": -122.542,
+        "incident_type": "Armed robbery with injury/death and/or evidence of DGU found"
+    },
+    {
+        "incident_id": 217095,
+        "date": "2014-01-02",
+        "n_killed": 0,
+        "n_injured": 0,
+        "latitude": 45.5867,
+        "longitude": -122.587,
+        "incident_type": "TSA Action"
+    },
+
+
+    ... of course many more records than this
+
+    ]
+}
+```
